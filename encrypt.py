@@ -55,7 +55,7 @@ def decrypt_password(encrypted_password, key):
 #key = b'myencryptionkey123'
 key = generate_key()
 p = 'testQL123testQL123testQL123'
-
+print("--password")
 
 e = encrypt_password(p, key)
 print("E:", e)
