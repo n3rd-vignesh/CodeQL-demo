@@ -1,11 +1,12 @@
 /**
- * @id py/password-exposure
- * @name File with given name
- * @description Finds strings `--password`
- * @tags string match
+ * @name finds a custom regex pattern
+ * @description finds a custom regex pattern in your code
  * @kind problem
+ * @problem.severity warning
+ * @id py/regex finder
+ * @tags maintainability
  * @precision very-high
- * @problem.severity error
+ * @security-severity 6.1
  */
 
 import python
