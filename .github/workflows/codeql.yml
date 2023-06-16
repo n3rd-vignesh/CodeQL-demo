@@ -49,7 +49,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         #config-file: vigneshwaran-mohanasundaram/codeql-shared/.github/codeql/config-codeql.yml@main
-        queries: +security-and-quality,security-extended,vigneshwaran-mohanasundaram/codeql-shared/queries/*.ql@main
+        queries: +security-and-quality,security-extended,vigneshwaran-mohanasundaram/codeql-shared/queries@main
         external-repository-token: ${{ secrets.ACCESS_TOKEN }}
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
